@@ -58,9 +58,9 @@ class ReceipeController extends Controller
         // ]);
 // ---------------------------------------------------------// 
 
-        //Receipe::create(request()->all());        
+        Receipe::create(request()->all());        
 // ---------------------------------------------------------// 
-        Receipe::create($validatedData); 
+        //Receipe::create($validatedData); 
 
          return redirect("receipe");
     }
