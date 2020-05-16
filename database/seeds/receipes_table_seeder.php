@@ -12,9 +12,9 @@ class receipes_table_seeder extends Seeder
     public function run()
     {
         DB::table('receipes')->insert([
-            'name' => 'Ramen',
-            'ingrediends' => 'salt,nodles,meat',
-            'category' => 'Japanese Food',
+        	'name' =>'Ramen',
+        	'ingredients' => 'salt, noodle,meat',
+        	'category' => 'Japanese Food',
         ]);
     }
 }

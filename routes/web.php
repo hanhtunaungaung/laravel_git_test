@@ -11,7 +11,31 @@
 |
 */
 
-Route::get('/', 'ReceipeController@index');
+// Route::get('/', 'ReceipeController@index');
+
+Route::resource('receipe', 'ReceipeController');
+
+// create
+
+// Route::get('receipe', 'ReceipeController@index');
+// Route::get('receipe/create', 'ReceipeController@createReceipeForm');
+// Route::post('receipe', 'ReceipeController@create');
+
+//show
+
+// Route::get('receipe/{id}', 'ReceipeController@show');
+
+//edit
+
+// Route::get('receipe/{id}/edit', 'ReceipeController@edit');
+
+//update
+
+// Route::patch('receipe/{id}', 'ReceipeController@update');
+
+//delete
+
+// Route::delete('receipe/{id}', 'ReceipeController@delete');
 
 
 

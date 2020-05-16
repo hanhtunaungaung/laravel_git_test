@@ -16,11 +16,11 @@ class CreateReceipesTable extends Migration
         Schema::create('receipes', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('name');
-            $table->text('ingrediends');
+            $table->text('ingredients');
             $table->text('category');
             $table->timestamps();
         });
-    }
+    } 
 
     /**
      * Reverse the migrations.
